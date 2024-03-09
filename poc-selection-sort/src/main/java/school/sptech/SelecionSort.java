@@ -2,7 +2,7 @@ package school.sptech;
 
 public class SelecionSort {
 
-    public static void selectionSort(int[] v){
+    public static int[] selectionSort(int[] v){
         int temp = 0;
         int indMenor = 0;
 
@@ -20,9 +20,11 @@ public class SelecionSort {
         }
         long tempoFinal = System.currentTimeMillis() - tempoInicial;
         System.out.println(("Tempo de execussão: %d ms").formatted(tempoFinal));
+
+        return v;
     }
 
-    public static void selectionSort(double[] v){
+    public static double[] selectionSort(double[] v){
         double temp = 0;
         int indMenor = 0;
 
@@ -40,5 +42,7 @@ public class SelecionSort {
         }
         long tempoFinal = System.currentTimeMillis() - tempoInicial;
         System.out.println(("Tempo de execussão: %d ms").formatted(tempoFinal));
+
+        return v;
     }
 }
