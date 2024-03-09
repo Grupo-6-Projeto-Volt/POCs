@@ -2,7 +2,7 @@ package school.sptech;
 
 public class BubbleSort {
 
-    public static int[] ordenaVetorInteiro(int[] v){
+    public static int[] ordenaVetor(int[] v){
         int numeroTemp;
 
         long tempoInicial = System.currentTimeMillis();
@@ -23,9 +23,10 @@ public class BubbleSort {
         return v;
     }
 
-    public static double[] ordenaVetorDouble(double[] v){
+    public static double[] ordenaVetor(double[] v){
         double numeroTemp;
 
+        long tempoInicial = System.currentTimeMillis();
         for (int i = 0; i < v.length; i++) {
             for (int y = 0; y < v.length - i - 1; y++) {
                 if(v[y] > v[y+1]){
@@ -35,6 +36,8 @@ public class BubbleSort {
                 }
             }
         }
+        long tempoFinal = System.currentTimeMillis() - tempoInicial;
+        System.out.println(("Tempo de execussão: %d ms").formatted(tempoFinal));
         return v;
     }
 
