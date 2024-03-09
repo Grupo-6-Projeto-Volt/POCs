@@ -46,12 +46,13 @@ print(numeros_aleatorios)
 - Tempo de execução:
     - Vetor `int`: ~5 Milissegundos;
     - Vetor `double`: ~7 Milissegundos;  
-- Ordenação de veores do tipo `int`;
-- Ordenação de vetores do tipo `double`;
+- [x] Ordenação de veores do tipo `int`;
+- [x] Ordenação de vetores do tipo `double`;
 
 ### [POC Selection Sort](https://github.com/Grupo-6-Projeto-Volt/POCs/tree/main/poc-selection-sort)
 - Tempo de execução
     - Vetor `int`: ~ 3 Milissegundos;
     - Vetor `double`: ~ 2 Milissegundos;
-- Ordenação de veores do tipo `int`;
-- Ordenação de vetores do tipo `double`;
+- [x] Ordenação de veores do tipo `int`;
+- [x] Ordenação de vetores do tipo `double`;
+- [ ] Ordenação de vetores do tipo `String`;
