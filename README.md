@@ -37,7 +37,7 @@ print(numeros_aleatorios)
 ### [POC Bubble Sort](https://github.com/Grupo-6-Projeto-Volt/POCs/tree/main/poc-bobble-sort)
 O Bubble Sort é um algoritmo de ordenação simples e eficaz em alguns casos. Conta com:
 - Marcador de tempo de execução do metódo; 
-- Ordenação de veores do tipo `ìnt`; Testado e validado: ✅
+- Ordenação de veores do tipo `int`; Testado e validado: ✅
 - Ordenação de vetores do tipo `double`; Testado e validado: ❌
 
 ### POC Selection Sort - EM PROGESSO 🚧🏗️
