@@ -5,6 +5,7 @@ public class BubbleSort {
     public static int[] ordenaVetorInteiro(int[] v){
         int numeroTemp;
 
+        long tempoInicial = System.currentTimeMillis();
         for (int i = 0; i < v.length; i++) {
             for (int j = 0; j < v.length - i - 1; j++) {
 
@@ -17,6 +18,8 @@ public class BubbleSort {
                 }
             }
         }
+        long tempoFinal = System.currentTimeMillis() - tempoInicial;
+        System.out.println(("Tempo de execussão: %d ms").formatted(tempoFinal));
         return v;
     }
 
