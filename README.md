@@ -1,2 +1,3 @@
-# POCs
-Repositório destinado a criação de POCs no Java.
+# POC's 📝
+
+### ⚠️🚨 Cada Projeto criado dentro deste repositório representa uma POC
