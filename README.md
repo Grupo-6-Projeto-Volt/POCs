@@ -39,3 +39,5 @@ O Bubble Sort é um algoritmo de ordenação simples e eficaz em alguns casos. C
 - Marcador de tempo de execução do metódo; 
 - Ordenação de veores do tipo `ìnt`; Testado e validado: ✅
 - Ordenação de vetores do tipo `double`; Testado e validado: ❌
+
+### POC Selection Sort - EM PROGESSO 🚧🏗️
