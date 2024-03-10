@@ -10,8 +10,6 @@
 > **Build System**: Maven;
 >
 > **GroupId**: school.sptech;
->
-> **Depenências**: Sem dependências desde a última atualização;
 
 ### índice
 1. [POC Bubble Sort](#bubbleSort)
