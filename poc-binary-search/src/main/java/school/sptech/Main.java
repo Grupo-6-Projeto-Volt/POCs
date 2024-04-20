@@ -48,15 +48,21 @@ public class Main {
             }
             else if (escolha == 4) {
                 // Buscar por Preço
-
+                System.out.println("Informe um preço para ser pesquisado");
+                double precoEscolhido = leitorInt.nextDouble();
+                System.out.println(BinarySearch.buscarPreco(Ordenacao.bubbleSortMaiorPreco(produtos),precoEscolhido));
             }
             else if (escolha == 5) {
                 // Buscar por Quantidade em estoque
-
+                System.out.println("Informe a quantidade em estoque desejada");
+                int qtdEscolhida = leitorInt.nextInt();
+                System.out.println(BinarySearch.buscarQtdEstoque(Ordenacao.selectionSortMaiorQtdEstoque(produtos), qtdEscolhida));
             }
             else if (escolha == 6) {
                 // Buscar por Id
-
+                System.out.println("Informe um id desejado");
+                int idEscolhido = leitorInt.nextInt();
+                System.out.println(BinarySearch.buscarId(Ordenacao.insertionSortUltimosInseridos(produtos), idEscolhido));
             }
             else if (escolha == 7) {
                 // Ver últimos produtos inseridos
@@ -68,7 +74,6 @@ public class Main {
             else {
                 System.out.println("Esolha uma opção válida!!");
             }
-
         } while (escolha != 9);
 
     }
